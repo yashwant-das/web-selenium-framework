@@ -1,6 +1,6 @@
 # Roadmap
 
-This document outlines the planned features and future development direction for the pytest-selenium-framework.
+This document outlines the planned features and future development direction for the web-selenium-framework.
 
 ## Current Version (v0.1.0)
 

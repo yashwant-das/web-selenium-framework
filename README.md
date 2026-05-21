@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1>Pytest Selenium Test Automation Framework</h1>
+  <h1>Web Selenium Test Automation Framework</h1>
 
   <p><strong>A robust and maintainable Python test automation framework built with pytest and Selenium WebDriver</strong></p>
 
@@ -67,7 +67,7 @@ Page Object Model (POM) design pattern and provides a comprehensive set of utili
 ## Project Structure
 
 ```text
-pytest-selenium-framework/
+web-selenium-framework/
 ├── config/                  # Configuration files
 │   ├── config.json          # Framework settings (browser, timeouts, reporting)
 │   └── environments.json    # Environment-specific settings (dev, qa, staging, prod)
@@ -142,9 +142,7 @@ If drivers aren't in PATH, the framework will automatically download them on fir
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yashwant-das/pytest-selenium-framework.git
-   cd pytest-selenium-framework
-   ```
+    git clone https://github.com/yashwant-das/web-selenium-framework.git
 
 2. Create and activate a virtual environment:
 

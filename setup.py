@@ -1,4 +1,4 @@
-"""Setup configuration for pytest-selenium-framework."""
+"""Setup configuration for web-selenium-framework."""
 from pathlib import Path
 from setuptools import setup, find_packages
 
@@ -14,7 +14,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Yashwant Das",
     author_email="yashworks@gmail.com",
-    url="https://github.com/yashwant-das/pytest-selenium-framework",
+    url="https://github.com/yashwant-das/web-selenium-framework",
     packages=find_packages(exclude=["tests", "tests.*", "examples", "examples.*"]),
     python_requires=">=3.8",
     install_requires=[
@@ -58,9 +58,9 @@ setup(
         "Topic :: Software Development :: Quality Assurance",
     ],
     project_urls={
-        "Bug Reports": "https://github.com/yashwant-das/pytest-selenium-framework/issues",
-        "Source": "https://github.com/yashwant-das/pytest-selenium-framework",
-        "Documentation": "https://github.com/yashwant-das/pytest-selenium-framework#readme",
+        "Bug Reports": "https://github.com/yashwant-das/web-selenium-framework/issues",
+        "Source": "https://github.com/yashwant-das/web-selenium-framework",
+        "Documentation": "https://github.com/yashwant-das/web-selenium-framework#readme",
     },
     license="MIT",
 )

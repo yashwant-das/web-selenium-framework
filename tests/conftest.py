@@ -250,7 +250,7 @@ def _create_allure_environment_files() -> None:
             f.write(f"OS={os_name}\n")
             f.write(f"OS.Version={os_version}\n")
             f.write(f"OS.Architecture={os_arch}\n")
-            f.write(f"Framework=pytest-selenium-framework\n")
+            f.write(f"Framework=web-selenium-framework\n")
             f.write(f"Framework.Version=0.1.0\n")
             f.write(f"Environment=Default\n")
             f.write(f"Test.URL={env_config.get('url', 'N/A')}\n")
@@ -263,7 +263,7 @@ def _create_allure_environment_files() -> None:
         executor_data = {
             "name": "Local Machine",
             "type": "local",
-            "buildName": "pytest-selenium-framework",
+            "buildName": "web-selenium-framework",
             "buildOrder": 1,
             "reportName": "Test Execution Report",
             "reportUrl": ""
